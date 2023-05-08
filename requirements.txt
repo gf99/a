@@ -1,0 +1,7 @@
+numpy
+pygithub
+pandas
+requests
+beautifulsoup4
+lxml
+plot2svg
