@@ -1,13 +1,5 @@
 <svg width="500px" height="104px" xmlns="http://www.w3.org/2000/svg" fill="red">
 <path d="M0 104
-v -96
-h 12 
-v 96
-h 6
-v -24
-h 12 
-v 24
-h 6
 v -12
 h 12 
 v 12
@@ -99,6 +91,14 @@ h 6
 v -12
 h 12 
 v 12
+h 6
+v -24
+h 12 
+v 24
+h 6
+v -0
+h 12 
+v 0
 h 6
 v -24
 h 12 
