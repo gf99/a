@@ -1,9 +1,5 @@
 <svg width="500px" height="104px" xmlns="http://www.w3.org/2000/svg" fill="red">
 <path d="M0 104
-v -24
-h 12 
-v 24
-h 6
 v -72
 h 12 
 v 72
@@ -103,5 +99,9 @@ h 6
 v -48
 h 12 
 v 48
+h 6
+v -12
+h 12 
+v 12
 h 6"/>
 </svg>
