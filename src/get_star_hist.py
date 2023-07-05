@@ -98,7 +98,16 @@ star_history_dt_total = star_history_dt_total_.iloc[:, 0] + star_history_dt_tota
 
 latest_stars, latest_day = star_history_dt_total[-1], star_history_dt_total.index[-1]
 star_everyday_200 = (star_history_dt_total[-1] - star_history_dt_total[-201]) / 200
-diff_stars = 10000 - star_history_dt_total[-1]
+
+# 这里用总的star数量，而不是两个相加
+import requests,json
+r = requests.get('https://www.guofei.site/pages/achievement.json')
+star_cnt = json.loads(r.text)['star_cnt']
+star_cnt = int(star_cnt)
+
+
+
+diff_stars = 10000 - star_cnt
 diff_days = diff_stars / star_everyday_200
 # object_date = star_history_cumsum.index[-1].date() + datetime.timedelta(days=diff_days)
 
