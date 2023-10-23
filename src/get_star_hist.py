@@ -122,5 +122,9 @@ Text(width=500, height=None, color="red",
      data=datetime.datetime.now(tz=pytz.timezone('Asia/Shanghai')).strftime('%Y-%m-%d %H:%M:%S') \
           + target + res_sko + res_bw).save_svg('data/text.svg')
 
+print(target)
+print(res_sko)
+print(res_bw)
+
 Bar(width=500, height=None, color="red", data=data_sko).save_svg('data/sko.svg')
 Bar(width=500, height=None, color="red", data=data_bw).save_svg('data/bw.svg')
